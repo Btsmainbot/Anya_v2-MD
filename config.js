@@ -57,24 +57,24 @@ global.message = {
     wait: '🔄 Processing request...',
     link: 'I need a link to process this command.',
     error: "❌ Oops! An error occurred while processing your request. Please try again later.",
-    ban: `You're banned from using this bot!`,
+    ban: `poes You're banned from using this bot!`,
     nsfw: 'This group is not *NSFW* enabled.',
     banChat: 'This group is banned from using this bot, please contact owner to get unbanned.'
 },
 
 module.exports = {
-  botname: process.env.BotName || "Queen Anya", 
-  author: process.env.Author || "@PikaBotz",
-  packname: process.env.PackName || "Queen Anya v2 MD",
-  socialLink: process.env.Web || "https://github.com/PikaBotz",
-  footer: process.env.Footer || "© Queen Anya Bot",
-  prefa: process.env.Prefix || ['-'],
-  themeemoji: process.env.ThemeEmoji || "🎐",
-  ownername: process.env.Owner_Name || "Pika~Kun",
-  ownernumber: process.env.Owner_Number || "916900904828",
+  botname: process.env.BotName || "ℕ𝔸𝔹-𝔹𝕠𝕥", 
+  author: process.env.Author || "𝑵𝑨𝑩𝒘𝒐𝒓𝒌𝒔",
+  packname: process.env.PackName || "ℕ𝔸𝔹-𝔹𝕠𝕥",
+  socialLink: process.env.Web || "https://youtube.com/@nabgains",
+  footer: process.env.Footer || "©ℕ𝔸𝔹-𝔹𝕠𝕥",
+  prefa: process.env.Prefix || ['>'],
+  themeemoji: process.env.ThemeEmoji || "🐦",
+  ownername: process.env.Owner_Name || "𝑵𝑨𝑩𝒘𝒐𝒓𝒌𝒔",
+  ownernumber: process.env.Owner_Number || "27799191911",
   instagramId: process.env.Insta || "8.08_only_mine",
   warns: process.env.Warns_Limits || 3,
-  mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+  mongoUrl: process.env.MongoDB || "mongodb+srv://btsmainbot:<password>@nabbot.d94tnlh.mongodb.net/?retryWrites=true&w=majority",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
@@ -105,15 +105,15 @@ module.exports = {
 
 
 // Ignore them 👇🏻
-global.botname = process.env.BotName || "Queen Anya" 
-global.author = process.env.Author || "@PikaBotz" 
-global.packname = process.env.PackName || "Queen Anya v2 MD" 
-global.myweb = process.env.Web || "https://github.com/PikaBotz" 
-global.footer = process.env.Footer || "© Queen Anya Bot" 
-global.prefa = process.env.Prefix || ['-'] 
-global.themeemoji = process.env.ThemeEmoji || "🎐" 
-global.ownername = process.env.Owner_Name || "Pika~Kun" 
-global.ownernumber = process.env.Owner_Number || "916900904828" 
+global.botname = process.env.BotName || "ℕ𝔸𝔹-𝔹𝕠𝕥" 
+global.author = process.env.Author || "𝑵𝑨𝑩𝒘𝒐𝒓𝒌𝒔" 
+global.packname = process.env.PackName || "ℕ𝔸𝔹-𝔹𝕠𝕥" 
+global.myweb = process.env.Web || "https://youtube.com/@nabgains" 
+global.footer = process.env.Footer || "©ℕ𝔸𝔹-𝔹𝕠𝕥" 
+global.prefa = process.env.Prefix || ['>'] 
+global.themeemoji = process.env.ThemeEmoji || "🐦" 
+global.ownername = process.env.Owner_Name || "𝑵𝑨𝑩𝒘𝒐𝒓𝒌𝒔" 
+global.ownernumber = process.env.Owner_Number || "27799191911" 
 global.adress = process.env.Continent || "Asia, India, Assam" 
 global.timezone = process.env.TimeZone || "Asia/Kolkata" 
 global.instagramId = process.env.Insta || "8.08_only_mine" 
